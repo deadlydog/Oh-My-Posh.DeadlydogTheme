@@ -36,13 +36,24 @@
 				},
 				{
 					"background": "#95ffa4",
-					"foreground": "#193549",
+					"foreground": "#100e23",
 					"powerline_symbol": "",
 					"properties": {
 						"template": "{{ .HEAD }}"
 					},
 					"style": "powerline",
 					"type": "git"
+				},
+				{
+					"background": "#2eb6f5",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"properties": {
+						"prefix": "☁️",
+						"template": "{{ .Name }}"
+					},
+					"style": "powerline",
+					"type": "az"
 				},
 				{
 					"background": "#906cff",
