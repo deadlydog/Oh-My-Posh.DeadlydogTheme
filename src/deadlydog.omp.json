@@ -75,11 +75,9 @@
 					"foreground": "#ffffff",
 					"properties": {
 						"always_enabled": true,
-						"prefix": " 羽 "
+						"prefix": "⏳"
 					},
-					"powerline_symbol": "",
-					"invert_powerline": true,
-					"style": "powerline",
+					"style": "plain",
 					"type": "executiontime"
 				},
 				{
