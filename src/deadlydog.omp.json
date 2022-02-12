@@ -77,6 +77,8 @@
 						"always_enabled": true,
 						"prefix": " 羽 "
 					},
+					"powerline_symbol": "",
+					"invert_powerline": true,
 					"style": "powerline",
 					"type": "executiontime"
 				},
@@ -95,10 +97,9 @@
 					"properties": {
 						"prefix": "  "
 					},
+					"powerline_symbol": "",
 					"invert_powerline": true,
-					"leading_diamond": "",
-					"style": "diamond",
-					"trailing_diamond": "",
+					"style": "powerline",
 					"type": "time"
 				}
 			],
