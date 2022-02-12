@@ -64,6 +64,7 @@
 					"background": "#ebcc34",
 					"powerline_symbol": "",
 					"properties": {
+						"prefix": "ﴱ ",
 						"template": " \uFD31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
 					},
 					"style": "powerline",
