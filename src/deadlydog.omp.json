@@ -84,11 +84,10 @@
 					"background": "#2e9599",
 					"foreground": "#ffffff",
 					"properties": {
-						"prefix": "  "
+						// "prefix": "  ",
+						"time_format": "3:04:05 PM"
 					},
-					"powerline_symbol": "",
-					"invert_powerline": true,
-					"style": "powerline",
+					"style": "plain",
 					"type": "time"
 				}
 			],
