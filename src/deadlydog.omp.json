@@ -82,15 +82,6 @@
 					"style": "powerline",
 					"type": "executiontime"
 				},
-				// {
-				// 	"background": "#003543",
-				// 	"foreground": "#ffffff",
-				// 	"properties": {
-				// 		"prefix": "  "
-				// 	},
-				// 	"style": "plain",
-				// 	"type": "time"
-				// }
 				{
 					"background": "#2e9599",
 					"foreground": "#ffffff",
