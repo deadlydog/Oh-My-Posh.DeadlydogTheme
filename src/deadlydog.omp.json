@@ -75,7 +75,7 @@
 					"foreground": "#ffffff",
 					"properties": {
 						"always_enabled": true,
-						"prefix": " 羽 "	// Hourglass icon.
+						"prefix": " 羽 "
 					},
 					"style": "powerline",
 					"type": "executiontime"
@@ -93,7 +93,7 @@
 					"background": "#2e9599",
 					"foreground": "#ffffff",
 					"properties": {
-						"prefix": "  " // Clock icon.
+						"prefix": "  "
 					},
 					"invert_powerline": true,
 					"leading_diamond": "",
