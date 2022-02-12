@@ -39,7 +39,11 @@
 					"foreground": "#100e23",
 					"powerline_symbol": "",
 					"properties": {
-						"template": "{{ .HEAD }}"
+						"branch_max_length": 20,
+						"fetch_stash_count": true,
+						"fetch_status": true,
+						"fetch_upstream_icon": true,
+						"template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}"
 					},
 					"style": "powerline",
 					"type": "git"
