@@ -56,6 +56,16 @@
 					"type": "az"
 				},
 				{
+					"foreground": "#100e23",
+					"background": "#ebcc34",
+					"powerline_symbol": "",
+					"properties": {
+						"template": " \uFD31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
+					},
+					"style": "powerline",
+					"type": "kubectl"
+				},
+				{
 					"background": "#906cff",
 					"foreground": "#100e23",
 					"powerline_symbol": "",
