@@ -91,7 +91,7 @@
 				// }
 				{
 					"background": "#2e9599",
-					"foreground": "#111111",
+					"foreground": "#ffffff",
 					"properties": {
 						"prefix": "  "
 					},
