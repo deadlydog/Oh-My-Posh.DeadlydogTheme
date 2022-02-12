@@ -1,0 +1,125 @@
+{
+	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+	"blocks": [
+		{
+			"alignment": "left",
+			"segments": [
+				{
+					"background": "#ffe9aa",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"style": "powerline",
+					"type": "root"
+				},
+				{
+					"background": "#ffffff",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"properties": {
+						"template": "{{ .UserName }}@{{ .ComputerName }}"
+					},
+					"style": "powerline",
+					"type": "session"
+				},
+				{
+					"background": "#91ddff",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"properties": {
+						"enable_hyperlink": true,
+						"folder_icon": "",
+						"folder_separator_icon": "  ",
+						"style": "full"
+					},
+					"style": "powerline",
+					"type": "path"
+				},
+				{
+					"background": "#95ffa4",
+					"foreground": "#193549",
+					"powerline_symbol": "",
+					"properties": {
+						"template": "{{ .HEAD }}"
+					},
+					"style": "powerline",
+					"type": "git"
+				},
+				{
+					"background": "#906cff",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"properties": {
+						"prefix": "  "
+					},
+					"style": "powerline",
+					"type": "python"
+				},
+				{
+					"background": "#ff8080",
+					"foreground": "#ffffff",
+					"powerline_symbol": "",
+					"properties": {
+						"template": ""
+					},
+					"style": "powerline",
+					"type": "exit"
+				}
+			],
+			"type": "prompt"
+		},
+		{
+			"alignment": "right",
+			"segments": [
+				{
+					"background": "#83769c",
+					"foreground": "#ffffff",
+					"properties": {
+						"always_enabled": true,
+						"prefix": " 羽"
+					},
+					"style": "powerline",
+					"type": "executiontime"
+				},
+				// {
+				// 	"background": "#003543",
+				// 	"foreground": "#ffffff",
+				// 	"properties": {
+				// 		"prefix": "  "
+				// 	},
+				// 	"style": "plain",
+				// 	"type": "time"
+				// }
+				{
+					"background": "#2e9599",
+					"foreground": "#111111",
+					"properties": {
+						"prefix": "  "
+					},
+					"invert_powerline": true,
+					"leading_diamond": "",
+					"style": "diamond",
+					"trailing_diamond": "",
+					"type": "time"
+				}
+			],
+			"type": "prompt"
+		},
+		{
+			"alignment": "left",
+			"newline": true,
+			"segments": [
+				{
+					"foreground": "#007ACC",
+					"properties": {
+						"prefix": "",
+						"text": "❯"
+					},
+					"style": "plain",
+					"type": "text"
+				}
+			],
+			"type": "prompt"
+		}
+	],
+	"final_space": false
+}

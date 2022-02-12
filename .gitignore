@@ -1,0 +1,3 @@
+# Ignore committing all json themes except for deadlydog.omp.json.
+src/*.json
+!src/deadlydog.omp.json
