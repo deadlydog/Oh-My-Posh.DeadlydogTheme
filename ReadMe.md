@@ -26,7 +26,7 @@ To use this theme:
    oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/deadlydog.omp.json | Invoke-Expression
    ```
 
-   Or if you have installed the PowerShell module using `Install-Module oh-my-posh`, you can use the command:
+   Or if you have installed the oh-my-posh PowerShell module using `Install-Module oh-my-posh`, you can use the command:
 
    ```powershell
    Set-PoshPrompt -Theme $env:POSH_THEMES_PATH/deadlydog.omp.json
