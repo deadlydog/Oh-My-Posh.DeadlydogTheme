@@ -1,16 +1,16 @@
 # Deadlydog Oh My Posh Theme
 
-## Description
+## 💬 Description
 
 This is a custom theme for [Oh My Posh](https://ohmyposh.dev), called `deadlydog`.
 
 ![deadlydog oh-my-posh screenshot](docs/Images/DeadlydogThemeScreenshot.png)
 
-## Why this exists
+## ❓ Why this exists
 
 I wasn't quite happy with [the out-of-the-box themes](https://ohmyposh.dev/docs/themes), so I created this one.
 
-## Quick start
+## 🚀 Quick start
 
 To use this theme:
 
@@ -32,12 +32,12 @@ To use this theme:
    Set-PoshPrompt -Theme $env:POSH_THEMES_PATH/deadlydog.omp.json
    ```
 
-## Changelog
+## 📃 Changelog
 
 See what's changed in the application over time by viewing [the changelog](Changelog.md).
 
-## Donate
+## 💳 Donate
 
-Buy me a donut 🍩 for providing this theme open source and for free :)
+Buy me a donut 🍩 for providing this theme open source and for free 🙂
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/deadlydogDan/5USD)
