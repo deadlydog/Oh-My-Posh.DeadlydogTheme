@@ -91,7 +91,7 @@
 					"foreground": "#ffffff",
 					"powerline_symbol": "",
 					"properties": {
-						"template": ""
+						"template": "!"
 					},
 					"style": "powerline",
 					"type": "exit"
