@@ -45,7 +45,7 @@
 						"{{ if gt .Behind 0 }}#B388FB{{ end }}"
 					],
 					"properties": {
-						"branch_max_length": 20,
+						"branch_max_length": 40,
 						"fetch_stash_count": true,
 						"fetch_status": true,
 						"fetch_upstream_icon": true,
