@@ -55,28 +55,6 @@
 					"type": "git"
 				},
 				{
-					"background": "#2eb6f5",
-					"foreground": "#100e23",
-					"powerline_symbol": "",
-					"properties": {
-						"prefix": "☁️",
-						"template": "{{ .Name }}"
-					},
-					"style": "powerline",
-					"type": "az"
-				},
-				{
-					"foreground": "#100e23",
-					"background": "#ebcc34",
-					"powerline_symbol": "",
-					"properties": {
-						"prefix": "ﴱ ",
-						"template": "{{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}"
-					},
-					"style": "powerline",
-					"type": "kubectl"
-				},
-				{
 					"background": "#906cff",
 					"foreground": "#100e23",
 					"powerline_symbol": "",
@@ -129,8 +107,35 @@
 			],
 			"type": "prompt"
 		},
-
-		// Add prompt on new line below info line.
+		{
+			"alignment": "right",
+			"newline": true,
+			"segments": [
+				{
+					"background": "#2eb6f5",
+					"foreground": "#100e23",
+					"powerline_symbol": "",
+					"properties": {
+						"prefix": "☁️",
+						"template": "{{ .Name }}"
+					},
+					"style": "powerline",
+					"type": "az"
+				},
+				{
+					"foreground": "#100e23",
+					"background": "#ebcc34",
+					"powerline_symbol": "",
+					"properties": {
+						"prefix": "ﴱ ",
+						"template": "{{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}"
+					},
+					"style": "powerline",
+					"type": "kubectl"
+				}
+			],
+			"type": "prompt"
+		},
 		{
 			"alignment": "left",
 			"newline": true,
