@@ -4,6 +4,10 @@
 
 This is a custom theme for [Oh My Posh](https://ohmyposh.dev), called `deadlydog`.
 
+## 🖼 Screenshot
+
+This is what the command prompt looks like with this theme:
+
 ![deadlydog oh-my-posh screenshot](docs/Images/DeadlydogThemeScreenshot.png)
 
 ## ❓ Why this exists
