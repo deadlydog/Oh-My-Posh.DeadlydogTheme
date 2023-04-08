@@ -10,13 +10,13 @@ This is an example what the command prompt looks like with this theme:
 
 ![deadlydog oh-my-posh screenshot](docs/Images/deadlydog-theme-screenshot.png)
 
-The top-left line displays:
+The top line's left block displays:
 
 - The logged in user and the computer name.
 - The full current directory path.
 - If in a Git repository, shows the current Git branch and status.
 
-The top-right line displays:
+The top line's right block displays:
 
 - How long the previous command took to run.
 - The current time that the information was displayed.
@@ -26,7 +26,7 @@ The next line will show different information depending on the context:
 - If logged into Azure, shows the current Azure subscription.
 - If logged into Kubernetes, shows the current k8s context and namespace.
 
-Lastly, the prompt character is shown on the bottom-left to accept user input.
+Lastly, the prompt character is shown on the final line to accept user input.
 
 ## ❓ Why this exists
 
