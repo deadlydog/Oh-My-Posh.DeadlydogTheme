@@ -37,7 +37,7 @@ I wasn't quite happy with [the out-of-the-box themes](https://ohmyposh.dev/docs/
 To use this theme:
 
 1. [Install Oh My Posh](https://ohmyposh.dev/docs/windows) if you haven't already.
-1. Download the [deadlydog.omp.json theme file](src/deadlydog.omp.json) to your computer.
+1. Download and unzip [the latest release](https://github.com/deadlydog/Oh-My-Posh.DeadlydogTheme/releases) of the `deadlydog.omp.json` theme file.
 1. [Set the theme in Oh My Posh](https://ohmyposh.dev/docs/windows#replace-your-existing-prompt).
 
    - The command will vary depending on which shell you are in.
