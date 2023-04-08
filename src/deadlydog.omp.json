@@ -108,7 +108,7 @@
 			"type": "prompt"
 		},
 		{
-			"alignment": "right",
+			"alignment": "left",
 			"newline": true,
 			"segments": [
 				{
