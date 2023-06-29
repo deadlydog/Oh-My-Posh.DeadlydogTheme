@@ -54,6 +54,19 @@ To use this theme:
    Set-PoshPrompt -Theme $env:POSH_THEMES_PATH/deadlydog.omp.json
    ```
 
+## 🕵️‍♀️ Troubleshooting
+
+If some characters do not show up properly, or get errors like the following, it likely means that your terminal is not using a font that supports the characters used in this theme:
+
+> invalid char escape
+>
+> literal not terminated
+>
+> invalid char literal
+
+I recommend using the [CaskaydiaCove Nerd Code](https://www.nerdfonts.com/font-downloads) font.
+Once you have downloaded and installed the font, you will need to set your terminal to use it.
+
 ## 📃 Changelog
 
 See what's changed in the application over time by viewing [the changelog](Changelog.md).
