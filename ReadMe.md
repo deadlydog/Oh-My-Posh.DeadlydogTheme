@@ -56,7 +56,7 @@ To use this theme:
 
 ## 🕵️‍♀️ Troubleshooting
 
-If some characters do not show up properly, or get errors like the following, it likely means that your terminal is not using a font that supports the characters used in this theme:
+If some characters do not show up properly, or you get errors like the following, it likely means that your terminal is not using a font that supports the unicode characters used in this theme:
 
 > invalid char escape
 >
@@ -64,7 +64,7 @@ If some characters do not show up properly, or get errors like the following, it
 >
 > invalid char literal
 
-I recommend using the [CaskaydiaCove Nerd Code](https://www.nerdfonts.com/font-downloads) font.
+I recommend using the `CaskaydiaCove Nerd Code` font, which can be [downloaded from here](https://www.nerdfonts.com/font-downloads).
 Once you have downloaded and installed the font, you will need to set your terminal to use it.
 
 ## 📃 Changelog
