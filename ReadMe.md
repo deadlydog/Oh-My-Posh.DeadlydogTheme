@@ -4,7 +4,7 @@
 
 This is a custom theme for [Oh My Posh](https://ohmyposh.dev), called `deadlydog`.
 
-## 🖼 Screenshot
+## 🖼 Screenshot and features
 
 This is an example what the command prompt looks like with this theme:
 
