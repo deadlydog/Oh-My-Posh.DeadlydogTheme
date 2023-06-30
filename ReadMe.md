@@ -12,13 +12,13 @@ This is an example what the command prompt looks like with this theme:
 
 The top line's left block displays:
 
-- The logged in user and the computer name.
-- The full current directory path.
+- The logged in user and the computer name (handy if you run as different users or SSH into different servers).
+- The full current directory path (easy to select and copy, and `Ctrl`+`Click` it to open in File Explorer).
 - If in a Git repository, shows the current Git branch and status.
 
 The top line's right block displays:
 
-- How long the previous command took to run.
+- How long the previous command took to run (great for when you start a long-running operation and walk away from your PC).
 - The current time that the information was displayed.
 
 The next line will show different information depending on the context:
