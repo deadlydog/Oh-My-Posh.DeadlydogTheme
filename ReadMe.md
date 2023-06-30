@@ -38,10 +38,13 @@ To use this theme:
 
 1. [Install Oh My Posh](https://ohmyposh.dev/docs/windows) if you haven't already.
 1. Download and unzip [the latest release](https://github.com/deadlydog/Oh-My-Posh.DeadlydogTheme/releases) of the `deadlydog.omp.json` theme file.
+1. Place the `deadlydog.omp.json` file somewhere where it can permanently live on your computer.
+   A good place is the default Posh Themes Path, which you can find by running `$env:POSH_THEMES_PATH` in PowerShell.
+   e.g. C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes
 1. [Set the theme in Oh My Posh](https://ohmyposh.dev/docs/windows#replace-your-existing-prompt).
 
    - The command will vary depending on which shell you are in.
-   - You will need to change the file path to where you saved the `deadlydog.omp.json` file on your computer.
+   - You may need to change the file path to where you saved the `deadlydog.omp.json` file on your computer.
    - In PowerShell it would look something like:
 
    ```powershell
