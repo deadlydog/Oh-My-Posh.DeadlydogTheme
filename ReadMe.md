@@ -17,6 +17,8 @@ The top line's left block displays:
 - The full current directory path.
   - Easy to select and copy the path, and can `Ctrl`+`Click` it to open in File Explorer.
 - If in a Git repository, shows the current Git branch and status.
+- If an error occurred on the previous command, a red `!` is shown (not shown in screenshot)
+  - Allows you to easily see if the previous executable returned a non-zero exit code.
 
 The top line's right block displays:
 
