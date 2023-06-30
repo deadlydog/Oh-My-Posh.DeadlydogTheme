@@ -65,7 +65,7 @@ If some characters do not show up properly, or you get errors like the following
 > invalid char literal
 
 I recommend using the `CaskaydiaCove Nerd Code` font, which can be [downloaded from here](https://www.nerdfonts.com/font-downloads).
-Once you have downloaded and installed the font, you will need to set your terminal to use it.
+Once you have downloaded and installed the font, you will need to [update your terminal to use it](https://blog.danskingdom.com/Update-your-terminal-font-in-Windows-Terminal-and-VS-Code-and-Visual-Studio/).
 
 ## 📃 Changelog
 
