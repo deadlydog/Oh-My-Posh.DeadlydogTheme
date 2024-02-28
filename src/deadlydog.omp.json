@@ -116,7 +116,7 @@
 					"foreground": "#100e23",
 					"powerline_symbol": "",
 					"properties": {
-						"prefix": "☁️",
+						"prefix": "☁️ ",
 						"template": "{{ .Name }}"
 					},
 					"style": "powerline",
