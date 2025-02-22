@@ -28,7 +28,7 @@ The top line's right block displays:
 
 The next line will show different information depending on the context:
 
-- If logged into Azure, shows the current Azure subscription.
+- If logged into the Az CLI, shows the current Azure subscription.
 - If logged into Kubernetes, shows the current k8s context and namespace.
 
 Lastly, the prompt character is shown on the final line to accept user input.
