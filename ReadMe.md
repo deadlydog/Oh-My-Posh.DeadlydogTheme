@@ -41,26 +41,23 @@ I wasn't quite happy with [the out-of-the-box themes](https://ohmyposh.dev/docs/
 
 To use this theme:
 
-1. [Install Oh My Posh](https://ohmyposh.dev/docs/windows) if you haven't already.
+1. [Install Oh My Posh](https://ohmyposh.dev/docs/installation/windows) if you haven't already.
 1. Download and unzip [the latest release](https://github.com/deadlydog/Oh-My-Posh.DeadlydogTheme/releases) of the `deadlydog.omp.json` theme file.
 1. Place the `deadlydog.omp.json` file somewhere where it can permanently live on your computer.
    A good place is the default Posh Themes Path, which you can find by running `$env:POSH_THEMES_PATH` in PowerShell.
-   e.g. C:\Program Files\WindowsPowerShell\Modules\oh-my-posh\themes
-1. [Set the theme in Oh My Posh](https://ohmyposh.dev/docs/windows#replace-your-existing-prompt).
+   e.g. C:\Users\Your Name\AppData\Local\Programs\oh-my-posh\themes\
+1. [Set the theme in Oh My Posh](https://ohmyposh.dev/docs/installation/customize).
 
    - The command will vary depending on which shell you are in.
    - You may need to change the file path to where you saved the `deadlydog.omp.json` file on your computer.
    - In PowerShell it would look something like:
 
    ```powershell
-   oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/deadlydog.omp.json | Invoke-Expression
+   oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/deadlydog.omp.json | Invoke-Expression
    ```
 
-   Or if you have installed the oh-my-posh PowerShell module using `Install-Module oh-my-posh`, you can use the command:
-
-   ```powershell
-   Set-PoshPrompt -Theme $env:POSH_THEMES_PATH/deadlydog.omp.json
-   ```
+   - You will want to add the above line to your prompts startup file so it runs every time you open a new terminal window.
+   - For PowerShell, you can use the `$PROFILE` variable to find your startup file.
 
 ## 🕵️‍♀️ Troubleshooting
 
