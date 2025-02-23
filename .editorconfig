@@ -16,3 +16,8 @@ trim_trailing_whitespace = true
 [*.{tf,md,psd1,pp,yml,yaml}]
 indent_style = space
 indent_size = 2
+
+# Oh-my-posh overwrites the json file each time it is loaded, converting tabs to spaces, so just use spaces.
+[*.json]
+indent_style = space
+indent_size = 2
