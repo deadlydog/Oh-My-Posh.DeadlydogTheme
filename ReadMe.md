@@ -80,7 +80,10 @@ Once you have downloaded and installed the font, you will need to [update your t
 
 ## Development information
 
-You can find the list of all emojis and their unicode values [on this page](https://www.fileformat.info/info/emoji/list.htm).
+You can browse and search for emojis and their unicode values on these pages:
+
+- <https://www.fileformat.info/info/emoji/list.htm>
+- <https://www.compart.com/en/unicode>
 
 ## 📃 Changelog
 
