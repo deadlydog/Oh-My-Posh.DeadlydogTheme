@@ -78,6 +78,10 @@ If some characters do not show up properly, or you get errors like the following
 I recommend using the `CaskaydiaCove Nerd Font` font, which can be [downloaded from here](https://www.nerdfonts.com/font-downloads).
 Once you have downloaded and installed the font, you will need to [update your terminal to use it](https://blog.danskingdom.com/Update-your-terminal-prompt-and-font-in-Windows-Terminal-and-VS-Code-and-Visual-Studio/).
 
+## Development information
+
+You can find the list of all emojis and their unicode values [on this page](https://www.fileformat.info/info/emoji/list.htm).
+
 ## 📃 Changelog
 
 See what's changed in the application over time by viewing [the changelog](Changelog.md).
