@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.1 - April 6, 2025
+
+- fix: Update broken emojis with proper unicode values.
+- fix: Adjust spacing around some emojis to look nicer and prevent text overlapping.
+
 ## v2.0.0 - February 23, 2025
 
 BREAKING CHANGES:

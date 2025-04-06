@@ -61,7 +61,7 @@
             "{{ if gt .Ahead 0 }}#B388FF{{ end }}",
             "{{ if gt .Behind 0 }}#B388FB{{ end }}"
           ],
-          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}"
+          "template": "{{ .UpstreamIcon }} {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046{{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} 🖫 {{ .StashCount }}{{ end }}"
         },
         {
           "properties": {
@@ -120,12 +120,12 @@
           "foreground": "#100e23",
           "powerline_symbol": "\ue0b0",
           "background": "#2eb6f5",
-          "template": "☁\ufe0f {{ .Name }}",
+          "template": "\u2601 {{ .Name }}",
           "type": "az",
           "style": "powerline"
         },
         {
-          "template": "\ufd31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+          "template": "\u2388 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
           "foreground": "#100e23",
           "powerline_symbol": "\ue0b0",
           "background": "#ebcc34",
